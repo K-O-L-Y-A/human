@@ -2,14 +2,14 @@
 
 namespace human
 {
-    internal enum Gender
+    public enum Gender
     {
         Anon,
         Male,
         Female
     }
 
-    internal enum Countries
+    public enum Countries
     {
         Anon,
         USA,
@@ -20,7 +20,7 @@ namespace human
         Israel
     }
 
-    internal enum Hobbies
+    public enum Hobbies
     {
         Anon,
         Walking,
@@ -31,12 +31,12 @@ namespace human
         Building
     }
 
-    internal class Human
+    public class Human
     {
         private int _age;
-        public int _height;
-        public int _shoeSize;
-        public int _weight;
+        private int _height;
+        private int _shoeSize;
+        private int _weight;
         public ConsoleColor HairColor { get; set; }
         public ConsoleColor EyesColor { get; set; }
         public Countries CountriesStatus { get; set; }
