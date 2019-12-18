@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "human", "human\human.csproj", "{FB91AF7E-F3AB-4BE0-B7C5-468FE1E9B75B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HumanDLL", "HumanDLL\HumanDLL.csproj", "{166F84AB-D002-4855-BDFB-6C2EA9686D03}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "studentDll", "studentDll\studentDll.csproj", "{CBF39FC3-A6EA-42D4-92F8-886B37E78A38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{FB91AF7E-F3AB-4BE0-B7C5-468FE1E9B75B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB91AF7E-F3AB-4BE0-B7C5-468FE1E9B75B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB91AF7E-F3AB-4BE0-B7C5-468FE1E9B75B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{166F84AB-D002-4855-BDFB-6C2EA9686D03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{166F84AB-D002-4855-BDFB-6C2EA9686D03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{166F84AB-D002-4855-BDFB-6C2EA9686D03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{166F84AB-D002-4855-BDFB-6C2EA9686D03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF39FC3-A6EA-42D4-92F8-886B37E78A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF39FC3-A6EA-42D4-92F8-886B37E78A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF39FC3-A6EA-42D4-92F8-886B37E78A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF39FC3-A6EA-42D4-92F8-886B37E78A38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

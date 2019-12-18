@@ -49,5 +49,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HumanDLL\HumanDLL.csproj">
+      <Project>{166F84AB-D002-4855-BDFB-6C2EA9686D03}</Project>
+      <Name>HumanDLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\studentDll\studentDll.csproj">
+      <Project>{cbf39fc3-a6ea-42d4-92f8-886b37e78a38}</Project>
+      <Name>studentDll</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
